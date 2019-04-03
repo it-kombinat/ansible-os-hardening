@@ -1,0 +1,4 @@
+- name: wrapper playbook for testing "ansible-os-hardening" with custom vars for testing
+  hosts: localhost
+  roles:
+    - ansible-os-hardening
